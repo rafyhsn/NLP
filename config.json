@@ -1,0 +1,21 @@
+{
+  "model_name": "l3cube-pune/hing-roberta",
+  "max_length": 128,
+  "batch_size": 4,
+  "learning_rate": 3e-05,
+  "weight_decay": 0.01,
+  "num_epochs": 6,
+  "warmup_ratio": 0.1,
+  "dropout_prob": 0.15,
+  "offense_n_hidden": 3,
+  "hidden_size": 768,
+  "use_dynamic_weighting": true,
+  "w_a": 0.4,
+  "loss_type": "ce",
+  "focal_gamma": 2.0,
+  "use_hierarchy": true,
+  "train_path": "./original_split/train.csv",
+  "val_path": "./original_split/validation.csv",
+  "test_path": "./original_split/test.csv",
+  "output_dir": "./mttl_improved_outputs"
+}
