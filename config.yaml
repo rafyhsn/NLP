@@ -1,0 +1,21 @@
+model_name: l3cube-pune/hing-roberta
+max_length: 128
+batch_size: 4
+learning_rate: 0.00003
+weight_decay: 0.01
+num_epochs: 6
+warmup_ratio: 0.1
+dropout_prob: 0.15
+hidden_size: 768
+use_dynamic_weighting: true
+loss_type: ce
+focal_gamma: 2.0
+use_hierarchy: true
+
+data:
+  train_path: train.csv
+  sample_path: data/sample_data.csv
+
+outputs:
+  checkpoint_dir: checkpoints/best_model
+  results_dir: results
