@@ -1,4 +1,6 @@
 {
-  "status": "not_available",
-  "note": "No separate baseline metrics file was present in the folder."
+  "val_macro_f1_aggression": 0.6159103211176943,
+  "val_macro_f1_offense": 0.7982424760867874,
+  "val_macro_f1_mean": 0.7070763986022408,
+  "source": "history.json final logged epoch"
 }

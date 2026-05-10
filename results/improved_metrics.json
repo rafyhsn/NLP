@@ -1,6 +1,5 @@
 {
-  "val_macro_f1_aggression": 0.2222222222222222,
-  "val_macro_f1_offense": 0.4152542372881356,
-  "val_macro_f1_mean": 0.3187382297551789,
-  "source": "history.json final logged epoch"
+  "val_macro_f1_aggression": 0.6406386668569449,
+  "val_macro_f1_offense": 0.8260869565217391,
+  "val_macro_f1_mean": 0.733362811689342
 }
